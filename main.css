@@ -1,0 +1,73 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #7124d4;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+#sobre-o-jogo,
+#gameplay,
+#personagens,
+#fique-por-dentro{
+    background-color: #000000;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link.active,
+#fique-por-dentro button {
+    background-color: #7124d4;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #7124d4;
+}
+
+.text-colored{
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    
+}
+
+h1 img{
+    height: 70px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff
+}
+
+
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    h1 img{
+        height: 60px;
+    }
+}
